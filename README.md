@@ -1,8 +1,8 @@
 ## Go Plugins example
 
-Works on Linux and Mac
+Works on Linux and Mac with Go 1.10 and higher.
 
-The `plugin-alpha` directory has a `go-flags` command which can be built as a shared object using `build.sh`
+The `plug-alpha` directory has a `go-flags` command which can be built as a shared object using `build.sh`
 
 The `cmd` directory has a Go command which has a built-in `go-flags` command, and also dynamically (at runtime) loads
 the `plugin-alpha` plugin and exposes that command too.
